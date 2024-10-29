@@ -1,0 +1,5 @@
+[
+  "com/silu/controller",
+  "com/silu/repository",
+  "com/silu/service"
+]

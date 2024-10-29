@@ -1,0 +1,23 @@
+{
+  "name": "GET /api/products (202) - 07:52:38.752",
+  "app": "e-commerce-server",
+  "language": {
+    "name": "java",
+    "version": "19.0.2+7-44",
+    "engine": "Java HotSpot(TM) 64-Bit Server VM"
+  },
+  "client": {
+    "name": "appmap-java",
+    "url": "https://github.com/appland/appmap-java"
+  },
+  "recorder": {
+    "name": "request_recording",
+    "type": "requests"
+  },
+  "recording": {},
+  "git": {
+    "repository": "https://github.com/developer407/e-commerce-server.git",
+    "branch": "master",
+    "commit": "2c49cc5a47cc149ea1a9d666ae9957791cf9581d"
+  }
+}

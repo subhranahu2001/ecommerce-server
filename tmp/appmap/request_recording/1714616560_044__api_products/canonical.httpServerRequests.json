@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /api/products",
+    "parameters": "(color,size,minPrice,maxPrice,minDiscount,category,stock,sort,pageNumber,pageSize)",
+    "status": 202
+  }
+]

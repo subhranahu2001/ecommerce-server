@@ -1,0 +1,5 @@
+[
+  "com/silu/controller/UserProductController",
+  "com/silu/repository/ProductRepository",
+  "com/silu/service/ProductServiceImplementation"
+]

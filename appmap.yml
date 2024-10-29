@@ -1,0 +1,4 @@
+name: "e-commerce-server"
+appmap_dir: "tmp/appmap"
+packages:
+- path: "com.silu"

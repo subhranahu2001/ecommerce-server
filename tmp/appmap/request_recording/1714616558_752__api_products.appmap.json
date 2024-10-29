@@ -1,0 +1,996 @@
+{
+  "events": [
+    {
+      "defined_class": "com.silu.config.AppConfig$1",
+      "event": "call",
+      "id": 1,
+      "lineno": 38,
+      "method_id": "getCorsConfiguration",
+      "parameters": [
+        {
+          "class": "org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest",
+          "kind": "req",
+          "name": "request",
+          "object_id": 590086581,
+          "value": "org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@232c01b5"
+        }
+      ],
+      "path": "src/main/java/com/silu/config/AppConfig.java",
+      "receiver": {
+        "class": "com.silu.config.AppConfig$1",
+        "object_id": 289562331,
+        "value": "com.silu.config.AppConfig$1@11425edb"
+      },
+      "static": false,
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.00010137,
+      "event": "return",
+      "id": 2,
+      "parent_id": 1,
+      "return_value": {
+        "class": "org.springframework.web.cors.CorsConfiguration",
+        "object_id": 706842594,
+        "value": "org.springframework.web.cors.CorsConfiguration@2a218fe2"
+      },
+      "thread_id": 67
+    },
+    {
+      "defined_class": "com.silu.config.JwtTokenValidator",
+      "event": "call",
+      "id": 3,
+      "lineno": 30,
+      "method_id": "doFilterInternal",
+      "parameters": [
+        {
+          "class": "org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest",
+          "kind": "req",
+          "name": "request",
+          "object_id": 590086581,
+          "value": "org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@232c01b5"
+        },
+        {
+          "class": "org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse",
+          "kind": "req",
+          "name": "response",
+          "object_id": 36849854,
+          "value": "org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@23248be"
+        },
+        {
+          "class": "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+          "kind": "req",
+          "name": "filterChain",
+          "object_id": 1163490738,
+          "value": "org.springframework.security.web.FilterChainProxy$VirtualFilterChain@455975b2"
+        }
+      ],
+      "path": "src/main/java/com/silu/config/JwtTokenValidator.java",
+      "receiver": {
+        "class": "com.silu.config.JwtTokenValidator",
+        "object_id": 1374482090,
+        "value": "com.silu.config.JwtTokenValidator@51eceeaa"
+      },
+      "static": false,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "cors",
+          "referer": "http://localhost:3000/",
+          "sec-fetch-site": "same-site",
+          "accept-language": "en-US,en;q=0.9,hi;q=0.8,or;q=0.7",
+          "origin": "http://localhost:3000",
+          "accept": "application/json, text/plain, */*",
+          "authorization": "Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3MTQ1Nzg2OTQsImV4cCI6MTcxNDY2NTA5NCwiZW1haWwiOiJzdWJocmFuc2h1c2lsdUBnbWFpbC5jb20ifQ.eNBA7rCjnkpg5p5jaDmkTnyC5QaANxR_nIhaG6CXDkWgLKivbyppUUpaa8VCEwV8",
+          "sec-ch-ua": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:5050",
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "empty"
+        },
+        "normalized_path_info": "/api/products",
+        "path_info": "/api/products",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 4,
+      "message": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "color",
+          "object_id": 855487919,
+          "value": ""
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "size",
+          "object_id": 855487919,
+          "value": ""
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "minPrice",
+          "object_id": 682161426,
+          "value": "0"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "maxPrice",
+          "object_id": 1723512851,
+          "value": "10000"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "minDiscount",
+          "object_id": 1985263614,
+          "value": "0"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "category",
+          "object_id": 1884710363,
+          "value": "mens_kurta"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "stock",
+          "object_id": 1756369266,
+          "value": "null"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "sort",
+          "object_id": 1078071164,
+          "value": "price_low"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "pageNumber",
+          "object_id": 693838934,
+          "value": "0"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "pageSize",
+          "object_id": 1186219018,
+          "value": "10"
+        }
+      ],
+      "thread_id": 67
+    },
+    {
+      "defined_class": "com.silu.controller.UserProductController",
+      "event": "call",
+      "id": 5,
+      "lineno": 36,
+      "method_id": "findProductByCategoryHandler",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "category",
+          "object_id": 1884710363,
+          "value": "mens_kurta"
+        },
+        {
+          "class": "java.util.ArrayList",
+          "kind": "req",
+          "name": "color",
+          "object_id": 931481320,
+          "value": "[]"
+        },
+        {
+          "class": "java.util.ArrayList",
+          "kind": "req",
+          "name": "size",
+          "object_id": 1220283610,
+          "value": "[]"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "minPrice",
+          "object_id": 508982931,
+          "value": "0"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "maxPrice",
+          "object_id": 1567469631,
+          "value": "10000"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "minDiscount",
+          "object_id": 508982931,
+          "value": "0"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "sort",
+          "object_id": 1078071164,
+          "value": "price_low"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "stock",
+          "object_id": 1756369266,
+          "value": "null"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "pageNumber",
+          "object_id": 508982931,
+          "value": "0"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "pageSize",
+          "object_id": 1174339609,
+          "value": "10"
+        }
+      ],
+      "path": "src/main/java/com/silu/controller/UserProductController.java",
+      "receiver": {
+        "class": "com.silu.controller.UserProductController",
+        "object_id": 330787646,
+        "value": "com.silu.controller.UserProductController@13b76b3e"
+      },
+      "static": false,
+      "thread_id": 67
+    },
+    {
+      "defined_class": "com.silu.service.ProductServiceImplementation",
+      "event": "call",
+      "id": 6,
+      "lineno": 166,
+      "method_id": "getAllProduct",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "category",
+          "object_id": 1884710363,
+          "value": "mens_kurta"
+        },
+        {
+          "class": "java.util.ArrayList",
+          "kind": "req",
+          "name": "colors",
+          "object_id": 931481320,
+          "value": "[]"
+        },
+        {
+          "class": "java.util.ArrayList",
+          "kind": "req",
+          "name": "sizes",
+          "object_id": 1220283610,
+          "value": "[]"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "minPrice",
+          "object_id": 508982931,
+          "value": "0"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "maxPrice",
+          "object_id": 1567469631,
+          "value": "10000"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "minDiscount",
+          "object_id": 508982931,
+          "value": "0"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "sort",
+          "object_id": 1078071164,
+          "value": "price_low"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "stock",
+          "object_id": 1756369266,
+          "value": "null"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "pageNumber",
+          "object_id": 508982931,
+          "value": "0"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "pageSize",
+          "object_id": 1174339609,
+          "value": "10"
+        }
+      ],
+      "path": "src/main/java/com/silu/service/ProductServiceImplementation.java",
+      "receiver": {
+        "class": "com.silu.service.ProductServiceImplementation",
+        "object_id": 1844779968,
+        "value": "com.silu.service.ProductServiceImplementation@6df51bc0"
+      },
+      "static": false,
+      "thread_id": 67
+    },
+    {
+      "defined_class": "com.silu.repository.ProductRepository",
+      "event": "call",
+      "id": 7,
+      "lineno": -1,
+      "method_id": "filterProducts",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "p0",
+          "object_id": 1884710363,
+          "value": "mens_kurta"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "p1",
+          "object_id": 508982931,
+          "value": "0"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "p2",
+          "object_id": 1567469631,
+          "value": "10000"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "p3",
+          "object_id": 508982931,
+          "value": "0"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "p4",
+          "object_id": 1078071164,
+          "value": "price_low"
+        }
+      ],
+      "path": "src/main/java/com/silu/repository/ProductRepository.java",
+      "receiver": {
+        "class": "jdk.proxy3.$Proxy221",
+        "object_id": 491708011,
+        "value": "org.springframework.data.jpa.repository.support.SimpleJpaRepository@12d7863b"
+      },
+      "static": false,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 8,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select p1_0.id,p1_0.brand,p1_0.category_id,p1_0.color,p1_0.created_at,p1_0.description,p1_0.discount_persent,p1_0.discounted_price,p1_0.image_url,p1_0.num_ratings,p1_0.price,p1_0.quantity,p1_0.title from product p1_0 join categories c1_0 on c1_0.id=p1_0.category_id where (c1_0.name=? or ?='') and ((? is null and ? is null) or (p1_0.discounted_price between ? and ?)) and (? is null or p1_0.discount_persent>=?) order by case when ?='price_low' then p1_0.discounted_price end asc,case when ?='price_high' then p1_0.discounted_price end desc,p1_0.created_at desc"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.00061034,
+      "event": "return",
+      "id": 9,
+      "parent_id": 8,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 10,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select c1_0.id,c1_0.level,c1_0.name,p1_0.id,p1_0.level,p1_0.name,p1_0.parent_category_id from categories c1_0 left join categories p1_0 on p1_0.id=c1_0.parent_category_id where c1_0.id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.00009988,
+      "event": "return",
+      "id": 11,
+      "parent_id": 10,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 12,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select c1_0.id,c1_0.level,c1_0.name,p1_0.id,p1_0.level,p1_0.name,p1_0.parent_category_id from categories c1_0 left join categories p1_0 on p1_0.id=c1_0.parent_category_id where c1_0.id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 13,
+      "parent_id": 12,
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.0353228,
+      "event": "return",
+      "id": 14,
+      "parent_id": 7,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 172700157,
+        "value": "[com.silu.modal.Product@91ec6624, com.silu.modal.Product@c25a509c, com.silu.modal.Product@10306cab, com.silu.modal.Product@bb26c790, com.silu.modal.Product@e1108f7c, com.silu.modal.Product@c87aca8c, com.silu.modal.Product@208f6172, com.silu.modal.Product@b9f30def, com.silu.modal.Product@33d859a7, com.silu.modal.Product@65e56081, com.silu.modal.Product@c466c9ff, com.silu.modal.Product@cccfe0b4, com.silu.modal.Product@b7b8a9c4, com.silu.modal.Product@8fc74101, com.silu.modal.Product@6f1d0c27, com.silu.modal.Product@aa508b2b, com.silu.modal.Product@495995cd, com.silu.modal.Product@d485e46a, com.silu.modal.Product@78ae0223, com.silu.modal.Product@6d30b7bb, com.silu.modal.Product@f8f89c66, com.silu.modal.Product@feeddd49, com.silu.modal.Product@8a382260, com.silu.modal.Product@5d650b92, com.silu.modal.Product@4a31651b, com.silu.modal.Product@ff5b0754, com.silu.modal.Product@bfeca28b, com.silu.modal.Product@f685d7f6, com.silu.modal.Product@8f40daf1, com.silu.modal.Product@dc0f73ac, com.silu.modal.Product@1ed7723..."
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.03719496,
+      "event": "return",
+      "id": 15,
+      "parent_id": 6,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 436363431,
+        "value": "Page 1 of 5 containing com.silu.modal.Product instances"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.04965431,
+      "event": "return",
+      "id": 16,
+      "parent_id": 5,
+      "return_value": {
+        "class": "org.springframework.http.ResponseEntity",
+        "object_id": 637038019,
+        "value": "<202 ACCEPTED Accepted,Page 1 of 5 containing com.silu.modal.Product instances,[]>"
+      },
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 17,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.rating,r1_0.user_id from rating r1_0 where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.00019916,
+      "event": "return",
+      "id": 18,
+      "parent_id": 17,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 19,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.review,u1_0.id,u1_0.created_at,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.mobile,u1_0.password,u1_0.role from review r1_0 left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.00010009,
+      "event": "return",
+      "id": 20,
+      "parent_id": 19,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 21,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.rating,r1_0.user_id from rating r1_0 where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 22,
+      "parent_id": 21,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 23,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.review,u1_0.id,u1_0.created_at,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.mobile,u1_0.password,u1_0.role from review r1_0 left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 24,
+      "parent_id": 23,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 25,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.rating,r1_0.user_id from rating r1_0 where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.00009982,
+      "event": "return",
+      "id": 26,
+      "parent_id": 25,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 27,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.review,u1_0.id,u1_0.created_at,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.mobile,u1_0.password,u1_0.role from review r1_0 left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 28,
+      "parent_id": 27,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 29,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.rating,r1_0.user_id from rating r1_0 where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.00009968,
+      "event": "return",
+      "id": 30,
+      "parent_id": 29,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 31,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.review,u1_0.id,u1_0.created_at,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.mobile,u1_0.password,u1_0.role from review r1_0 left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.00010156,
+      "event": "return",
+      "id": 32,
+      "parent_id": 31,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 33,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.rating,r1_0.user_id from rating r1_0 where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 34,
+      "parent_id": 33,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 35,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.review,u1_0.id,u1_0.created_at,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.mobile,u1_0.password,u1_0.role from review r1_0 left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 36,
+      "parent_id": 35,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 37,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.rating,r1_0.user_id from rating r1_0 where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.00009983,
+      "event": "return",
+      "id": 38,
+      "parent_id": 37,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 39,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.review,u1_0.id,u1_0.created_at,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.mobile,u1_0.password,u1_0.role from review r1_0 left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 40,
+      "parent_id": 39,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 41,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.rating,r1_0.user_id from rating r1_0 where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.00009963,
+      "event": "return",
+      "id": 42,
+      "parent_id": 41,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 43,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.review,u1_0.id,u1_0.created_at,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.mobile,u1_0.password,u1_0.role from review r1_0 left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 44,
+      "parent_id": 43,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 45,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.rating,r1_0.user_id from rating r1_0 where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 46,
+      "parent_id": 45,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 47,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.review,u1_0.id,u1_0.created_at,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.mobile,u1_0.password,u1_0.role from review r1_0 left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 48,
+      "parent_id": 47,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 49,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.rating,r1_0.user_id from rating r1_0 where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 50,
+      "parent_id": 49,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 51,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.review,u1_0.id,u1_0.created_at,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.mobile,u1_0.password,u1_0.role from review r1_0 left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.00009965,
+      "event": "return",
+      "id": 52,
+      "parent_id": 51,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 53,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.rating,r1_0.user_id from rating r1_0 where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 54,
+      "parent_id": 53,
+      "thread_id": 67
+    },
+    {
+      "event": "call",
+      "id": 55,
+      "sql_query": {
+        "database_type": "MySQL",
+        "sql": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.review,u1_0.id,u1_0.created_at,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.mobile,u1_0.password,u1_0.role from review r1_0 left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.product_id=?"
+      },
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0,
+      "event": "return",
+      "id": 56,
+      "parent_id": 55,
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.0779771,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Transfer-Encoding": "chunked",
+          "Keep-Alive": "timeout=60",
+          "Access-Control-Allow-Origin": "http://localhost:3000",
+          "X-Content-Type-Options": "nosniff",
+          "Connection": "keep-alive",
+          "Pragma": "no-cache",
+          "Date": "Thu, 02 May 2024 02:22:40 GMT",
+          "X-Frame-Options": "DENY",
+          "Access-Control-Expose-Headers": "Authorization",
+          "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+          "Access-Control-Allow-Credentials": "true",
+          "Vary": "Origin",
+          "Expires": "0",
+          "X-XSS-Protection": "0",
+          "Content-Type": "application/json"
+        },
+        "status": 202
+      },
+      "id": 57,
+      "parent_id": 4,
+      "thread_id": 67
+    },
+    {
+      "elapsed": 0.09758615,
+      "event": "return",
+      "id": 58,
+      "parent_id": 3,
+      "thread_id": 67
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "GET /api/products (202) - 07:52:38.752",
+    "app": "e-commerce-server",
+    "language": {
+      "name": "java",
+      "version": "19.0.2+7-44",
+      "engine": "Java HotSpot(TM) 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "request_recording",
+      "type": "requests"
+    },
+    "recording": {},
+    "git": {
+      "repository": "https://github.com/developer407/e-commerce-server.git",
+      "branch": "master",
+      "commit": "2c49cc5a47cc149ea1a9d666ae9957791cf9581d"
+    }
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "findProductByCategoryHandler",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/silu/controller/UserProductController.java:36"
+                    }
+                  ],
+                  "name": "UserProductController",
+                  "type": "class"
+                }
+              ],
+              "name": "controller",
+              "type": "package"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "doFilterInternal",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/silu/config/JwtTokenValidator.java:30"
+                    }
+                  ],
+                  "name": "JwtTokenValidator",
+                  "type": "class"
+                },
+                {
+                  "children": [
+                    {
+                      "name": "getCorsConfiguration",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/silu/config/AppConfig.java:38"
+                    }
+                  ],
+                  "name": "AppConfig$1",
+                  "type": "class"
+                }
+              ],
+              "name": "config",
+              "type": "package"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "getAllProduct",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/silu/service/ProductServiceImplementation.java:166"
+                    }
+                  ],
+                  "name": "ProductServiceImplementation",
+                  "type": "class"
+                }
+              ],
+              "name": "service",
+              "type": "package"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "filterProducts",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/silu/repository/ProductRepository.java:-1"
+                    }
+                  ],
+                  "name": "ProductRepository",
+                  "type": "class"
+                }
+              ],
+              "name": "repository",
+              "type": "package"
+            }
+          ],
+          "name": "silu",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /api/products"
+        }
+      ]
+    },
+    {
+      "type": "database",
+      "name": "Database",
+      "children": [
+        {
+          "type": "query",
+          "name": "select p1_0.id,p1_0.brand,p1_0.category_id,p1_0.color,p1_0.created_at,p1_0.description,p1_0.discount_persent,p1_0.discounted_price,p1_0.image_url,p1_0.num_ratings,p1_0.price,p1_0.quantity,p1_0.title from product p1_0 join categories c1_0 on c1_0.id=p1_0.category_id where (c1_0.name=? or ?='') and ((? is null and ? is null) or (p1_0.discounted_price between ? and ?)) and (? is null or p1_0.discount_persent>=?) order by case when ?='price_low' then p1_0.discounted_price end asc,case when ?='price_high' then p1_0.discounted_price end desc,p1_0.created_at desc"
+        },
+        {
+          "type": "query",
+          "name": "select c1_0.id,c1_0.level,c1_0.name,p1_0.id,p1_0.level,p1_0.name,p1_0.parent_category_id from categories c1_0 left join categories p1_0 on p1_0.id=c1_0.parent_category_id where c1_0.id=?"
+        },
+        {
+          "type": "query",
+          "name": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.rating,r1_0.user_id from rating r1_0 where r1_0.product_id=?"
+        },
+        {
+          "type": "query",
+          "name": "select r1_0.product_id,r1_0.id,r1_0.created_at,r1_0.review,u1_0.id,u1_0.created_at,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.mobile,u1_0.password,u1_0.role from review r1_0 left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.product_id=?"
+        }
+      ]
+    }
+  ]
+}
